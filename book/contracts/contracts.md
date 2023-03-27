@@ -4,15 +4,15 @@ In ethers-rs, contracts are a way to interact with smart contracts on the Ethere
 
 The ethers-contracts module includes the following features:
 
-- [Abigen](): A module for generating Rust code from Solidity contracts.
-- [Compile](): A module for compiling Solidity contracts into bytecode and ABI files.
-- [Creating Instances](): A module for creating instances of smart contracts.
-- [Deploy Anvil](): A module for deploying smart contracts on the Anvil network.
-- [Deploy from ABI and bytecode](): A module for deploying smart contracts from their ABI and bytecode files.
-- [Deploy Moonbeam](): A module for deploying smart contracts on the Moonbeam network.
-- [Events](): A module for listening to smart contract events.
-- [Events with Meta](): A module for listening to smart contract events with metadata.
-- [Methods](): A module for calling smart contract methods.
+- [Abigen](./abigen.md): A module for generating Rust code from Solidity contracts.
+- [Compile](./compile.md): A module for compiling Solidity contracts into bytecode and ABI files.
+- [Creating Instances](./creating-instances.md): A module for creating instances of smart contracts.
+- [Deploy Anvil](./deploy-anvil.md): A module for deploying smart contracts on the Anvil network.
+- [Deploy from ABI and bytecode](./deploy-from-abi-and-bytecode.md): A module for deploying smart contracts from their ABI and bytecode files.
+- [Deploy Moonbeam](./doploy-moonbeam.md): A module for deploying smart contracts on the Moonbeam network.
+- [Events](./events.md): A module for listening to smart contract events.
+- [Events with Meta](./events-with-meta.md): A module for listening to smart contract events with metadata.
+- [Methods](./methods.md): A module for calling smart contract methods.
 
 The ethers-contracts module provides a convenient way to work with Ethereum smart contracts in Rust. With this module, you can easily create instances of smart contracts, deploy them to the network, and interact with their methods and events.
 
